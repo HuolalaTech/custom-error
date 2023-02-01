@@ -1,0 +1,29 @@
+{
+  "name": "@huolala-tech/custom-error",
+  "description": "Used to fix the odd behaviors of native Error object inheritance code compiled to ES5",
+  "version": "0.0.1",
+  "main": "./dist/cjs/CustomError.js",
+  "module": "./dist/esm/CustomError.js",
+  "types": "./dist/esm/CustomError.d.ts",
+  "scripts": {
+    "lint": "eslint src/CustomError.js",
+    "test": "jest",
+    "build": "make",
+    "prettier": "prettier --write \"**/*.{js,ts,md,json}\"",
+    "prepare": "husky install"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "YanagiEiichi <576398868@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "eslint": "^7.32.0",
+    "husky": "^7.0.2",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.3.5"
+  }
+}
