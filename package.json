@@ -1,7 +1,7 @@
 {
   "name": "@huolala-tech/custom-error",
   "description": "Used to fix the odd behaviors of native Error object inheritance code compiled to ES5",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "./dist/cjs/CustomError.js",
   "module": "./dist/esm/CustomError.js",
   "types": "./dist/esm/CustomError.d.ts",
