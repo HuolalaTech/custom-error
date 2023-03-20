@@ -1,4 +1,4 @@
-# CustomError
+# CustomError · [![LICENSE](https://img.shields.io/npm/l/@huolala-tech/custom-error)](LICENSE.txt)
 
 Used to fix the odd behaviors of native Error object inheritance code compiled to ES5.
 
@@ -19,6 +19,18 @@ console.log(error instanceof MyError); // false <!-- should be true
 
 see https://babeljs.io/docs/en/caveats/#classes
 
+## Include
+
+```bash
+yarn add @huolala-tech/custom-error
+```
+
+or
+
+```bash
+npm install @huolala-tech/custom-error --save
+```
+
 ## Use the CustomError
 
 ```typescript
@@ -33,4 +45,5 @@ const error = new MyError();
 console.log(error instanceof Error); // true
 console.log(error instanceof MyError); // true
 console.log(error instanceof CustomError); // true
+console.log(Object.prototype.toString.call(error)); // [object Error]
 ```
