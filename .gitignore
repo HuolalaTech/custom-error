@@ -4,6 +4,7 @@ coverage
 .*
 *.tgz
 *.log
+!.github
 !.gitignore
 !.vscode
 !.prettierrc
