@@ -1,4 +1,4 @@
-# CustomError · [![LICENSE](https://img.shields.io/npm/l/@huolala-tech/custom-error)](LICENSE.txt)
+# CustomError · [![LICENSE](https://img.shields.io/npm/l/@huolala-tech/custom-error)](LICENSE.txt) [![codecov](https://codecov.io/gh/HuolalaTech/custom-error/branch/main/graph/badge.svg?token=I2EU9MD3AK)](https://codecov.io/gh/HuolalaTech/custom-error)
 
 Used to fix the odd behaviors of native Error object inheritance code compiled to ES5.
 
